@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 550px) {
+  #input {
+    width: 80px;
+    /* display:none; */
+  }
+}
+#btn{
+  display: none;
+}
+@media (max-width: 470px) {
+  
+  #allhide{
+    display: none;
+  }
+}
+@media (max-width: 430px) {
+  #btn {
+   
+    display:block;
+  
+}
+}
+#back{
+  display: none;
+}
+@media (max-width: 969px) {
+  #back {
+   
+    display:block;
+  
+}
+}
+#no{
+  font-family: Poppins;
+}
